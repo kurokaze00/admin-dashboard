@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Odin Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="icons/logo.png" alt="Odin Logo" class="logo-img">
+                <h1>Dashboard</h1>
+            </div>
+            <nav class="nav-group">
+                <div class="nav-item"><img src="icons/home.svg"><span>Home</span></div>
+                <div class="nav-item"><img src="icons/profile.svg"><span>Profile</span></div>
+                <div class="nav-item"><img src="icons/messages.svg"><span>Messages</span></div>
+                <div class="nav-item"><img src="icons/history.svg"><span>History</span></div>
+                <div class="nav-item"><img src="icons/tasks.svg"><span>Tasks</span></div>
+                <div class="nav-item"><img src="icons/communities.svg"><span>Communities</span></div>
+            </nav>
+            <nav class="nav-group secondary">
+                <div class="nav-item"><img src="icons/cog.svg"><span>Settings</span></div>
+                <div class="nav-item"><img src="icons/help.svg"><span>Support</span></div>
+                <div class="nav-item"><img src="icons/privacy.svg"><span>Privacy</span></div>
+            </nav>
+        </aside>
+
+        <header class="header">
+            <div class="header-top">
+                <div class="search-section">
+                    <img src="icons/search.svg" class="icon-fixed">
+                    <input type="text" id="search-input">
+                </div>
+                <div class="user-info-short">
+                    <img src="icons/notifications.svg" class="icon-fixed">
+                    <img src="icons/avatar.svg" class="avatar-v-small">
+                    <span class="user-name">Morgan Oakley</span>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="user-greeting">
+                    <img src="icons/avatar.svg" class="avatar-large">
+                    <div>
+                        <p>Hi there,</p>
+                        <h3>Morgan Oakley (@morgan)</h3>
+                    </div>
+                </div>
+                <div class="header-buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="projects">
+                <h3>Your Projects</h3>
+                <div class="project-grid">
+                    <div class="card">
+                        <div class="card-text">
+                            <h4>Super Cool Project</h4>
+                            <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                        </div>
+                        <div class="card-actions">
+                            <img src="icons/star.svg" class="card-icon">
+                            <img src="icons/watch.svg" class="card-icon">
+                            <img src="icons/share.svg" class="card-icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-text">
+                            <h4>Less Cool Project</h4>
+                            <p>Nullam condimentum ipsum ut lectus vehicula consetetur. Quisque sed dolor tincidunt, praesent sapien et.</p>
+                        </div>
+                        <div class="card-actions">
+                            <img src="icons/star.svg" class="card-icon">
+                            <img src="icons/watch.svg" class="card-icon">
+                            <img src="icons/share.svg" class="card-icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-text">
+                            <h4>Impossible App</h4>
+                            <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+                        </div>
+                        <div class="card-actions">
+                            <img src="icons/star.svg" class="card-icon">
+                            <img src="icons/watch.svg" class="card-icon">
+                            <img src="icons/share.svg" class="card-icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-text">
+                            <h4>Easy Peasy App</h4>
+                            <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam.</p>
+                        </div>
+                        <div class="card-actions">
+                            <img src="icons/star.svg" class="card-icon">
+                            <img src="icons/watch.svg" class="card-icon">
+                            <img src="icons/share.svg" class="card-icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-text">
+                            <h4>Ad Blocker</h4>
+                            <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis.</p>
+                        </div>
+                        <div class="card-actions">
+                            <img src="icons/star.svg" class="card-icon">
+                            <img src="icons/watch.svg" class="card-icon">
+                            <img src="icons/share.svg" class="card-icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-text">
+                            <h4>Money Maker</h4>
+                            <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor.</p>
+                        </div>
+                        <div class="card-actions">
+                            <img src="icons/star.svg" class="card-icon">
+                            <img src="icons/watch.svg" class="card-icon">
+                            <img src="icons/share.svg" class="card-icon">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="right-widgets">
+                <div class="announcements">
+                    <h3>Announcements</h3>
+                    <div class="widget-card">
+                        <div class="news"><h5>Site Maintenance</h5><p>Vestibulum condimentum tellus lacus...</p></div>
+                        <hr>
+                        <div class="news"><h5>Community Share Day</h5><p>Nam vel lectus tincidunt...</p></div>
+                        <hr>
+                        <div class="news"><h5>Updated Privacy Policy</h5><p>Phasellus efficitur nisi eget elit...</p></div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <h3>Trending</h3>
+                    <div class="widget-card">
+                        <div class="trend-user"><img src="icons/avatar.svg" class="avatar-v-small"><div><p>@tegan</p><span>World Peace Builder</span></div></div>
+                        <div class="trend-user"><img src="icons/avatar.svg" class="avatar-v-small"><div><p>@morgan</p><span>Super Cool Project</span></div></div>
+                        <div class="trend-user"><img src="icons/avatar.svg" class="avatar-v-small"><div><p>@kendall</p><span>Life Changing App</span></div></div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+</body>
+
+</html>
